@@ -69,7 +69,7 @@ public class BookSellerAgent extends Agent {
 		addBehaviour(new OneShotBehaviour() {
 			public void action() {
 				catalogue.put(title, price);
-				System.out.println(title + " inserted with a price of " + price);
+				System.out.println(title + " inserted with a price of RM" + price);
 			}
 		});
 	}
